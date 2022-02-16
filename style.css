@@ -1,0 +1,11 @@
+@charset "UTF-8"
+
+@font-face {
+    font-family: 'passionone';
+    src: url('../projeto-cordel/fontes/PassionOne-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url('../projeto-cordel/fontes/Sriracha-Regular.ttf') format('truetype');
+}
+
