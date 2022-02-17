@@ -9,3 +9,103 @@
     src: url('../projeto-cordel/fontes/Sriracha-Regular.ttf') format('truetype');
 }
 
+:root{
+    --fonth1: 'passionine', cursive;
+    --fontp: 'sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body{
+    background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    min-width: 120px;
+    margin: auto;
+    text-align: center;
+}
+header > h1{
+    color: white;
+    font-family: var(--fonth1);
+    font-size: 8vw;
+    padding: 16px;
+}
+header > P, a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    padding-bottom: 16px;
+}
+header > p > a:hover{
+    font-weight: bolder;
+    color: lightgreen;    
+}
+
+section{
+    font-family: var(--fontp);
+    font-size: 2.4vw;
+    padding-top: 20px;
+    padding-left: 36px;
+}
+#sec01{
+    background-color: white;
+    padding-bottom: 16px;
+    margin-bottom: -20px;
+}
+#sec02{
+    background: url('../projeto-cordel/imagens/background001.jpg') right center fixed ;
+    background-size: cover;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
+.sec02{
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;  
+}
+#sec03{
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
+#sec04{
+    background: url('../projeto-cordel/imagens/background002.jpg') right center fixed;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
+.sec04{
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;  
+}
+#sec05{
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
+footer{
+    background-color: black;
+}
+footer > p, a{
+    color: white;
+    font-size: 1.2vw;
+    margin: auto;
+    text-align: center;
+    padding: 12px;
+}
+footer > p > a:hover{
+    font-weight: bolder;
+    color: lightgreen;    
+}
