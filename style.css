@@ -9,16 +9,18 @@
     src: url('../projeto-cordel/fontes/Sriracha-Regular.ttf') format('truetype');
 }
 
-:root{
-    --fonth1: 'passionine', cursive;
-    --fontp: 'sriracha', cursive;
-}
-
 *{
     margin: 0px;
     padding: 0px;
     font-size: 1em;
 }
+
+:root{
+    --fonth1: 'passionine', cursive;
+    --fontp: 'sriracha', cursive;
+}
+
+
 
 body{
     background-color: darkgray;
