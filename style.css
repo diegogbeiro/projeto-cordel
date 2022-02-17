@@ -38,11 +38,14 @@ header > h1{
     font-size: 8vw;
     padding: 16px;
 }
-header > P, a{
+header > .paragrafoheader, a{
     color: white;
     text-decoration: none;
     font-size: 2vw;
     padding-bottom: 16px;
+}
+header > .paragrafoheader > a{
+    font-size: 2vw;
 }
 header > p > a:hover{
     font-weight: bolder;
@@ -98,12 +101,15 @@ section{
 footer{
     background-color: black;
 }
-footer > p, a{
+footer > p {
     color: white;
     font-size: 1.2vw;
     margin: auto;
     text-align: center;
     padding: 12px;
+}
+footer >p > a{
+    font-size: 1.2vw;
 }
 footer > p > a:hover{
     font-weight: bolder;
