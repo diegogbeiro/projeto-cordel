@@ -38,6 +38,7 @@ header > h1{
     color: white;
     font-family: var(--fonth1);
     font-size: 8vw;
+    font-variant: small-caps;
     padding: 16px;
 }
 header > .paragrafoheader, a{
