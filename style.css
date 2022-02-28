@@ -22,7 +22,7 @@
 
 
 
-body{
+html, body{
     background-color: darkgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
